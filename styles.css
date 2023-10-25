@@ -1,0 +1,796 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+a {
+    
+    color: whitesmoke; 
+    text-decoration: none;
+
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 99vw;
+    padding: 5px;
+    background-image: url(media/tealnav.jpg);  
+    overflow: hidden;
+    border-bottom: 2px solid black;
+    z-index: 1;
+}
+
+.nav ul li {
+  display: inline-flex;
+  position: relative;
+  justify-content: space-around;
+  left: -20px;
+  
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 18px;
+  top: 0;  
+}
+
+.nav ul li a:hover {
+    color: darkgrey;
+}
+
+#hi {
+  
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  left: 18%;
+  margin: 0 auto;
+  font-size: 32px;
+  color: black;
+  z-index: 2;
+
+}
+
+#welcome-section span {
+    
+    color: white;
+}
+
+#welcome-section {
+  height: 150vh;
+  width: 99.99%;
+  color: whitesmoke;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
+background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#welcome-section img {
+    display: inline-block;
+    position: fixed;
+    height: 99%;
+    top: 20px;
+    left: 57%;
+    z-index: 1;
+}
+
+
+.project-wrapper {
+    
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 13%;
+    width: 30%;
+    grid-row-gap: 50px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    z-index: 1;
+    
+}
+
+.project-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 29.4vw;
+  height: 32.7vh;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+.figcaption {
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 105%;
+    color: whitesmoke;    
+}
+
+/* ----------SECOND SECTION-----------*/
+
+
+#second-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 70vh;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
+    background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.social-wide {
+    
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    top: 55%;
+    color: teal;
+    margin-left: 24%;
+}
+
+.social-wide h3 {
+    
+    display: inline-block;
+    position: relative;
+    left: -50.5%;
+    top: 50%;
+    
+}
+
+.social-wide a {
+    
+    color: white;
+}
+
+.social-wide a:hover {
+    
+    color: teal;
+    text-decoration: underline;
+    /* transform: translate(0px, -8px); 
+    Need to get this to shift down a few pixels for the effect.
+    */ 
+}
+
+#copyright, #copyright a {
+    
+  position: relative;
+  margin-left: 25.5%;
+  bottom: -85%;    
+  font-size: 18px;
+  color: black;
+  z-index: 2;
+}
+
+
+
+
+/* -----------------------------BIG LAPTOP-------------------------------------------------------------------*/
+/* -----------------------------BIG LAPTOP-------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+    
+    .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+    padding: 5px;
+    background-image: url(media/tealnav.jpg);  
+    overflow: hidden;
+    border-bottom: 2px solid black;
+    z-index: 1;
+}
+
+    
+  #hi {
+  
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  left: 10.5%;
+  margin: 0 auto;
+  font-size: 2em;
+  color: black;
+  z-index: 2;
+
+}
+
+#welcome-section span {
+    
+    color: white;
+}
+
+#welcome-section {
+  height: 150vh;
+  width: 99.99%;
+  color: whitesmoke;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
+background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#welcome-section img {
+    display: inline-block;
+    position: fixed;
+    height: 99%;
+    top: 20px;
+    left: 50%;
+    z-index: 1;
+}
+
+
+.project-wrapper {
+    
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 2%;
+    width: 30%;
+    grid-row-gap: 50px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    z-index: 1;
+    
+}
+
+.project-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 47vw;
+  height: 35.7vh;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+.figcaption {
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 105%;
+    color: whitesmoke;    
+}
+
+/* ----------SECOND SECTION-----------*/
+
+
+#second-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 70vh;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
+    background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.social-wide {
+    
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    top: 65%;
+    color: teal;
+    margin-left: 24%;
+}
+
+.social-wide h3 {
+    
+    display: inline-block;
+    position: relative;
+    left: -50.5%;
+    top: 50%;
+    
+}
+
+.social-wide a {
+    
+    color: teal;
+}
+
+.social-wide a:hover {
+    
+    color: teal;
+    text-decoration: underline;
+    /* transform: translate(0px, -8px); 
+    Need to get this to shift down a few pixels for the effect.
+    */ 
+}
+
+#copyright, #copyright a {
+    
+  position: relative;
+  margin-left: 25.5%;
+  bottom: -84%;    
+  font-size: 18px;
+  color: black;
+  z-index: 2;
+}
+
+    
+}
+
+/* -----------------------------LAPTOP-------------------------------------------------------------------*/
+/* -----------------------------LAPTOP-------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+    
+    .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+    padding: 5px;
+    background-image: url(media/tealnav.jpg);  
+    overflow: hidden;
+    border-bottom: 2px solid black;
+    z-index: 1;
+}
+
+    
+  #hi {
+  
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  left: 10.5%;
+  margin: 0 auto;
+  font-size: 2em;
+  color: black;
+  z-index: 2;
+
+}
+
+#welcome-section span {
+    
+    color: white;
+}
+
+#welcome-section {
+  height: 150vh;
+  width: 99.99%;
+  color: whitesmoke;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
+background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#welcome-section img {
+    display: inline-block;
+    position: fixed;
+    height: 70%;
+    top: 20px;
+    left: 58%;
+    z-index: 1;
+}
+
+
+.project-wrapper {
+    
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 2%;
+    width: 30%;
+    grid-row-gap: 50px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    z-index: 1;
+    
+}
+
+.project-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 57vw;
+  height: 35.7vh;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+.figcaption {
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 105%;
+    color: whitesmoke;    
+}
+
+/* ----------SECOND SECTION-----------*/
+
+
+#second-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 70vh;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
+    background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.social-wide {
+    
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    top: 65%;
+    color: teal;
+    margin-left: 24%;
+}
+
+.social-wide h3 {
+    
+    display: inline-block;
+    position: relative;
+    left: -50.5%;
+    top: 50%;
+    
+}
+
+.social-wide a {
+    
+    color: teal;
+}
+
+.social-wide a:hover {
+    
+    color: teal;
+    text-decoration: underline;
+    /* transform: translate(0px, -8px); 
+    Need to get this to shift down a few pixels for the effect.
+    */ 
+}
+
+#copyright, #copyright a {
+    
+  position: relative;
+  margin-left: 25.5%;
+  bottom: -84%;    
+  font-size: 18px;
+  color: black;
+  z-index: 2;
+}
+
+    
+}
+
+
+/* -----------------------------TABLET-------------------------------------------------------------------*/
+/* -----------------------------TABLET-------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+    
+    .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+    padding: 5px;
+    background-image: url(media/tealnav.jpg);  
+    overflow: hidden;
+    border-bottom: 2px solid black;
+    z-index: 1;
+}
+
+    
+  #hi {
+  
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  left: 14%;
+  margin: 0 auto;
+  font-size: 2em;
+  color: black;
+  z-index: 2;
+
+}
+
+#welcome-section span {
+    
+    color: white;
+}
+
+#welcome-section {
+  height: 150vh;
+  width: 99.99%;
+  color: whitesmoke;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
+background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#welcome-section img {
+    display: inline-block;
+    position: fixed;
+    height: 30%;
+    top: 20px;
+    left: 76%;
+    z-index: 1;
+}
+
+
+.project-wrapper {
+    
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 2%;
+    width: 30%;
+    grid-row-gap: 50px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    z-index: 1;
+    
+}
+
+.project-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 73vw;
+  height: 35.7vh;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+.figcaption {
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 105%;
+    color: whitesmoke;    
+}
+
+/* ----------SECOND SECTION-----------*/
+
+
+#second-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 70vh;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
+    background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.social-wide {
+    
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    top: 65%;
+    color: teal;
+    margin-left: 45%;
+}
+
+.social-wide h3 {
+    
+    display: inline-block;
+    position: relative;
+    left: -50.5%;
+    top: 50%;
+    
+}
+
+.social-wide a {
+    
+    color: teal;
+}
+
+.social-wide a:hover {
+    
+    color: teal;
+    text-decoration: underline;
+    /* transform: translate(0px, -8px); 
+    Need to get this to shift down a few pixels for the effect.
+    */ 
+}
+
+#copyright, #copyright a {
+    
+  position: relative;
+  margin-left: 21.5%;
+  bottom: -84%;    
+  font-size: 18px;
+  color: black;
+  z-index: 2;
+}
+
+    
+}
+
+
+/* -----------------------------PHONE-------------------------------------------------------------------*/
+/* -----------------------------PHONE-------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    
+    .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+    padding: 5px;
+    background-image: url(media/tealnav.jpg);  
+    overflow: hidden;
+    border-bottom: 2px solid black;
+    z-index: 1;
+}
+
+    
+  #hi {
+  
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  left: 14%;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 2em;
+  color: black;
+  word-break: break-all;
+  z-index: 2;
+
+}
+
+#welcome-section span {
+    
+    color: teal;
+}
+
+#welcome-section {
+  height: 150vh;
+  width: 99.99%;
+  color: whitesmoke;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
+background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#welcome-section img {
+    display: inline-block;
+    position: fixed;
+    height: 30%;
+    top: 30px;
+    left: 70%;
+    z-index: 3;
+}
+
+.project-wrapper {
+    
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 3%;
+    width: 30%;
+    grid-row-gap: 50px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    z-index: 1;
+    
+}
+
+.project-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 93.5vw;
+  height: 35.7vh;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+.figcaption {
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 105%;
+    color: whitesmoke;    
+}
+
+/* ----------SECOND SECTION-----------*/
+
+
+#second-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 70vh;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
+    background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.social-wide {
+    
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    top: 65%;
+    color: teal;
+    margin-left: 45%;
+}
+
+.social-wide h3 {
+    
+    display: inline-block;
+    position: relative;
+    left: -50.5%;
+    top: 50%;
+    
+}
+
+.social-wide a {
+    
+    color: teal;
+}
+
+.social-wide a:hover {
+    
+    color: teal;
+    text-decoration: underline;
+    /* transform: translate(0px, -8px); 
+    Need to get this to shift down a few pixels for the effect.
+    */ 
+}
+
+#copyright, #copyright a {
+    
+  position: relative;
+  margin-left: 21.5%;
+  bottom: -84%;    
+  font-size: 18px;
+  color: black;
+  z-index: 2;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
