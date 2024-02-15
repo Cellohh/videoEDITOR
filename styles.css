@@ -681,7 +681,7 @@ background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* 
 #welcome-section img {
     display: inline-block;
     position: fixed;
-    height: 30%;
+    height: 25%;
     top: 30px;
     left: 70%;
     z-index: 3;
@@ -694,11 +694,11 @@ background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* 
     top: 20%;
     left: 3%;
     width: 30%;
-    grid-row-gap: 50px;
+    grid-row-gap: 90px;
     height: auto;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     justify-items: center;
     z-index: 1;
     
@@ -727,9 +727,9 @@ background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* 
 
 #second-section {
     
-    position: absolute;
+    position: relative;
     width: 99.99%;
-    height: 70vh;
+    height: 100vh;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
     background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
@@ -740,9 +740,9 @@ background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* 
     display: inline-block;
     position: relative;
     height: 50px;
-    top: 65%;
+    top: 70%;
     color: teal;
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
 .social-wide h3 {
@@ -771,7 +771,7 @@ background: linear-gradient(to right,  #158989 0%,#f9f9f9 50%,#158989 100%); /* 
 #copyright, #copyright a {
     
   position: relative;
-  margin-left: 21.5%;
+  left: -6.5%;
   bottom: -84%;    
   font-size: 18px;
   color: black;
