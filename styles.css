@@ -818,7 +818,7 @@ iframe {
         display: flex;
         justify-content: flex-end;
         position: fixed;
-        width: 100vw;
+        width: 77vw;
         padding: 5px;
         background-image: url(media/tealnav.jpg);  
         overflow: hidden;
@@ -831,11 +831,11 @@ iframe {
       
       display: inline-block;
       position: absolute;
-      top: 10%;
+      top: 7%;
       left: 4%;
-      width: 75%;
+      width: 58%;
       margin: 0 auto;
-      font-size: 1.0em;
+      font-size: 0.8em;
       color: black;
       word-break: break-all;
       z-index: 2;
@@ -848,7 +848,7 @@ iframe {
     }
     
     #welcome-section {
-      height: 10vh;
+      height: 35vh;
       width: 99.99%;
       color: whitesmoke;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158989+0,f9f9f9+50,158989+100 */
@@ -858,10 +858,10 @@ iframe {
     
     #welcome-section img {
         display: inline-block;
-        position: fixed;
-        height: 14%;
-        top: 90px;
-        left: 63.3%;
+        position: absolute;
+        height: 9%;
+        top: 67px;
+        left: 33.3%;
         z-index: 3;
     }
     
@@ -869,7 +869,7 @@ iframe {
         
         display: flex;
         position: relative;
-        top: 195%;
+        top: 55%;
         left: 3%;
         width: 30%;
         grid-row-gap: 15px;
@@ -886,8 +886,8 @@ iframe {
     
       position: relative;
       border: 2px solid white;
-      width: 65vw;
-      height: 10vh;
+      width: 67vw;
+      height: 20vh;
       box-shadow: 1px 1px 4px 2px whitesmoke;
     }
     
@@ -925,18 +925,28 @@ iframe {
         
         display: inline-block;
         position: relative;
-        height: 0px;
+        height: 20px;
         top: 80%;
         color: teal;
-        margin-left: 27%;
+        margin-left: 20%;
+    }
+
+    .social-wide img{
+        
+        display: inline-block;
+        position: relative;
+        height: 20px;
+        top: 290%;
+        color: teal;
+        margin-left: 22%;
     }
     
     .social-wide h3 {
         
         display: inline-block;
         position: relative;
-        left: 7%;
-        top: 10%;
+        left: 3%;
+        top: 270%;
         
     }
     
@@ -957,9 +967,9 @@ iframe {
     #copyright, #copyright a {
         
       position: relative;
-      left: -17%;
+      left: -23.5%;
       width: 100vw;
-      bottom: -85%;    
+      bottom: -90%;    
       font-size: 0.9em;
       color: black;
       z-index: 2;
